@@ -3,53 +3,330 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Макет</title>
   </head>
-  <header class="header">
-    <div class="header-top">
-      <nav>
-        <ul>
-          <li>
-            <a href="">Home</a>
-          </li>
-
-          <li>
-            <a href="">Shop</a>
-          </li>
-
-          <li>
-            <a href="">Story</a>
-          </li>
-
-          <li>
-            <a href="">About</a>
-          </li>
-
-          <li>
-            <a href="">Blog</a>
-          </li>
-
-          <li>
-            <a href="">Testimonials</a>
-          </li>
-        </ul>
-      </nav>
-
-      <a class="logo" href=""><img src="" alt="" /> </a>
-
-      <div class="right-block">
-        <div class="personal">
-          <ul>
-            <li>
-              <a href=""><img src="" alt="" /></a>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Home</a>
             </li>
-            <li>
-              <a href=""><img src="" alt="" /></a>
+
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Shop</a>
             </li>
-            <li>
-              <a href=""><img src="" alt="" /></a>
+
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Story</a>
+            </li>
+
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">About</a>
+            </li>
+
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Blog</a>
+            </li>
+
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Testimonials</a>
             </li>
           </ul>
+        </nav>
+
+        <div class="header__logo logo">
+          <a class="logo__link" href="">
+            <img class="logo__img" src="" alt="" />
+          </a>
+        </div>
+
+        <div class="header__right-block">
+          <div class="header__personal personal">
+            <ul class="personal__list">
+              <li class="personal__list-item">
+                <a class="personal__list-link" href=""
+                  ><img class="personal__list-img" src="" alt=""
+                /></a>
+              </li>
+              <li class="personal__list-item">
+                <a class="personal__list-link" href=""
+                  ><img class="personal__list-img" src="" alt=""
+                /></a>
+              </li>
+              <li class="personal__list-item">
+                <a class="personal__list-link" href=""
+                  ><img class="personal__list-img" src="" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__social social">
+            <ul>
+              <li>
+                <a href=""><img src="" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-content">
+        <a href="">Shop Now</a>
+        <h1>The Best Smoothies</h1>
+      </div>
+    </header>
+
+    <section>
+      <h2>What are these smoothies?</h2>
+      <p>
+        A smoothie is a drink made from pureed raw fruit, vegetables, and
+        sometimes dairy products (milk, yogurt, ice-cream or cottage cheese),
+        typically using a blender. Smoothies may be made using other
+        ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g.
+        honey, sugar, stevia, or syrup), whey powder, plant milk, nuts, nut
+        butter, seeds, tea, chocolate, herbal supplements, or nutritional
+        supplements.
+      </p>
+      <ul>
+        <li>
+          <img src="" alt="" />
+          <h3>Plant Based</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Vegan</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Paleo</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Gluten-Free</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Corn-Free</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Soy-Free</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Ayurvedic</h3>
+        </li>
+
+        <li>
+          <img src="" alt="" />
+          <h3>Made With Love</h3>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="" alt="" />
+      <div>
+        <h2>What makes Smoothie an awesome drink?</h2>
+        <ul>
+          <li>
+            <p>Crunchy Puffs Texture</p>
+          </li>
+
+          <li>
+            <p>100 Calories per drink</p>
+          </li>
+
+          <li>
+            <p>4g Plant Protein</p>
+          </li>
+
+          <li>
+            <p>Good source of Magnesium & Vitamin B6</p>
+          </li>
+
+          <li>
+            <p>No Sugar in our Savory Flavors</p>
+          </li>
+
+          <li>
+            <p>Non-GMO, Vegan & Paleo</p>
+          </li>
+
+          <li>
+            <p>Gluten-Free & Grain-Free</p>
+          </li>
+
+          <li>
+            <p>Corn-Free & Soy-Free</p>
+          </li>
+        </ul>
+        <a href="">About Organic Smoothie</a>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <img src="" alt="" />
+        <h4>Dark Chocolate Smoothie</h4>
+        <span>100 ml</span>
+        <a href=""></a>
+      </div>
+
+      <div>
+        <img src="" alt="" />
+        <h4>Vegan Lettuce Smoothie</h4>
+        <span>100 ml</span>
+        <a href=""></a>
+      </div>
+
+      <div>
+        <img src="" alt="" />
+        <h4>Lemon Ginger Smoothie</h4>
+        <span>100 ml</span>
+        <a href=""></a>
+      </div>
+
+      <div>
+        <img src="" alt="" />
+        <h4>Turmeric Garlic Smoothie</h4>
+        <span>100 ml</span>
+        <a href=""></a>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h2>Our story</h2>
+        <p>
+          As products typically using raw fruits or vegetables, smoothies
+          include dietary fiber (e.g. pulp, skin, and seeds) and so are thicker
+          than fruit juice, often with a consistency similar to a milkshake.
+        </p>
+      </div>
+
+      <div>
+        <img src="" alt="" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Why clients LOVE us?</h2>
+      <div class="feedback">
+        <div class="">
+          <q>
+            ”Smoothie is great. I don't know what else to say. I will let my mum
+            know about this, she could really make use of Smoothie! Smoothie
+            saved my business.”
+          </q>
+          <cite href="">from Santa Monica, CA</cite>
+        </div>
+        <img src="" alt="" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Our blog</h2>
+      <article>
+        <img src="" alt="" />
+        <h1>ASAFOETIDA - THE NEXT TURMERIC?</h1>
+        <time class="data" datetime="2020-06-16">Jun 16, 2020</time>
+        <p>
+          If the fruit ingredients and the green vegetable ingredients are both
+          juiced ahead of time, the mixed juice doesn't even have to be blended
+          like a smoothie, i.e. a green juice or anything... Read More
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <div>
+        <a href=""><img src="" alt="" />ashasuperfoods</a>
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div>
+          <a class="logo" href="">
+            <img src="" alt="" />
+          </a>
+        </div>
+
+        <div>
+          <h3>Information</h3>
+          <ul>
+            <li><a href="">Search</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Payment</h3>
+
+          <ul>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+            <li>
+              <img src="" alt="" />
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Don’t miss out!</h3>
+          <form action="">
+            <input type="text" />
+            <input href="" value="" />
+          </form>
         </div>
 
         <div class="social">
@@ -66,258 +343,15 @@
           </ul>
         </div>
       </div>
-    </div>
-
-    <div class="header-content">
-      <a href="">Shop Now</a>
-      <h1>The Best Smoothies</h1>
-    </div>
-  </header>
-
-  <section>
-    <h2>What are these smoothies?</h2>
-    <p>
-      A smoothie is a drink made from pureed raw fruit, vegetables, and
-      sometimes dairy products (milk, yogurt, ice-cream or cottage cheese),
-      typically using a blender. Smoothies may be made using other ingredients,
-      such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar,
-      stevia, or syrup), whey powder, plant milk, nuts, nut butter, seeds, tea,
-      chocolate, herbal supplements, or nutritional supplements.
-    </p>
-    <ul>
-      <li>
-        <h3>Plant Based</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Vegan</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Paleo</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Gluten-Free</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Corn-Free</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Soy-Free</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Ayurvedic</h3>
-        <img src="" alt="" />
-      </li>
-
-      <li>
-        <h3>Made With Love</h3>
-        <img src="" alt="" />
-      </li>
-    </ul>
-  </section>
-
-  <section>
-    <img src="" alt="" />
-    <h2>What makes Smoothie an awesome drink?</h2>
-    <ul>
-      <li>
-        <p>Crunchy Puffs Texture</p>
-      </li>
-
-      <li>
-        <p>100 Calories per drink</p>
-      </li>
-
-      <li>
-        <p>4g Plant Protein</p>
-      </li>
-
-      <li>
-        <p>Good source of Magnesium & Vitamin B6</p>
-      </li>
-
-      <li>
-        <p>No Sugar in our Savory Flavors</p>
-      </li>
-
-      <li>
-        <p>Non-GMO, Vegan & Paleo</p>
-      </li>
-
-      <li>
-        <p>Gluten-Free & Grain-Free</p>
-      </li>
-
-      <li>
-        <p>Corn-Free & Soy-Free</p>
-      </li>
-    </ul>
-
-    <div>
-      <a href="">About Organic Smoothie</a>
-    </div>
-  </section>
-
-  <section>
-    <div>
-      <img src="" alt="" />
-      <h4>Dark Chocolate Smoothie</h4>
-      <span>100 ml</span>
-      <a href=""></a>
-    </div>
-
-    <div>
-      <img src="" alt="" />
-      <h4>Vegan Lettuce Smoothie</h4>
-      <span>100 ml</span>
-      <a href=""></a>
-    </div>
-
-    <div>
-      <img src="" alt="" />
-      <h4>Lemon Ginger Smoothie</h4>
-      <span>100 ml</span>
-      <a href=""></a>
-    </div>
-
-    <div>
-      <img src="" alt="" />
-      <h4>Turmeric Garlic Smoothie</h4>
-      <span>100 ml</span>
-      <a href=""></a>
-    </div>
-  </section>
-
-  <section>
-    <img src="" alt="" />
-    <h2>Our story</h2>
-    <p>
-      As products typically using raw fruits or vegetables, smoothies include
-      dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit
-      juice, often with a consistency similar to a milkshake.
-    </p>
-  </section>
-
-  <section>
-    <img src="" alt="" />
-    <h2>Why clients LOVE us?</h2>
-    <p>
-      ”Smoothie is great. I don't know what else to say. I will let my mum know
-      about this, she could really make use of Smoothie! Smoothie saved my
-      business.”
-    </p>
-    <a href="">- from Santa Monica, CA</a>
-  </section>
-
-  <section>
-    <h2>Our blog</h2>
-    <img src="" alt="" />
-    <h3>ASAFOETIDA - THE NEXT TURMERIC?</h3>
-    <span>Jun 16, 2020</span>
-    <p>
-      If the fruit ingredients and the green vegetable ingredients are both
-      juiced ahead of time, the mixed juice doesn't even have to be blended like
-      a smoothie, i.e. a green juice or anything... Read More
-    </p>
-  </section>
-
-  <section>
-    <ul>
-      <div>
-        <a href=""><img src="" alt="" />ashasuperfoods</a>
+      <div class="footer-bottom">
+        <span>© 2020. All Rights Reserved.</span>
+        <div>
+          <a href=""></a>
+          <span>Go top</span>
+        </div>
       </div>
-      <li><img src="" alt="" /></li>
-      <li><img src="" alt="" /></li>
-      <li><img src="" alt="" /></li>
-      <li><img src="" alt="" /></li>
-      <li><img src="" alt="" /></li>
-    </ul>
-  </section>
-  <footer>
-    <div>
-      <a class="logo" href=""><img src="" alt="" /> </a>
-    </div>
+    </footer>
 
-    <div>
-      <h3>Information</h3>
-      <ul>
-        <li><a href=""></a>Search</li>
-        <li><a href=""></a>Contact us</li>
-        <li><a href=""></a>Terms & Conditions</li>
-        <li><a href=""></a>Terms & Conditions</li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Payment</h2>
-
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Don’t miss out!</h2>
-      <input type="text" />
-      <img src="" alt="" />
-      <a href=""></a>
-    </div>
-
-    <div class="social">
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <body>
     <script src="./script.js"></script>
   </body>
 </html>
