@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Muli;
+    src: url(./img/fonts/muli-bold-italic.ttf),
+    url(./img/fonts/Muli-Bold.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Muli;
+    src: url(./img/fonts/muli-extrabold.ttf),
+        url(./img/fonts/muli-italic.ttf);
+}
+
+@font-face {
+    font-family: Muli;
+    src: url(./img/fonts/muli-regular.ttf),
+        url(./img/fonts/muli-semibold.ttf);
+}
+
+body {
+    font-family: Muli;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(./img/smoothies/header-bg-img.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    width: 637px;
+    height: 38px;
+    color: #f7ae3b;
+    font-family: "Muli - Extra Bold";
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+
+.nav__list-link {
+    width: 540px;
+    height: 11px;
+    color: #ffffff;
+    font-family: Muli;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: normal;
+}
