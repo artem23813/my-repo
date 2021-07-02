@@ -18,6 +18,16 @@
         url(./img/fonts/muli-semibold.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
     font-family: Muli;
     width: 100vw;
