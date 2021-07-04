@@ -28,7 +28,7 @@ ul {
     list-style: none;
 }
 
-body {
+header {
     font-family: Muli;
     width: 100vw;
     height: 100vh;
@@ -71,3 +71,7 @@ body {
     letter-spacing: 0.32px;
     line-height: normal;
 }
+
+.content__list-item {
+    list-style-image: url(./img/about/1.png);
+    }
