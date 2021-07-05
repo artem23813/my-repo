@@ -1,7 +1,7 @@
 @font-face {
     font-family: Muli;
     src: url(./img/fonts/muli-bold-italic.ttf),
-    url(./img/fonts/Muli-Bold.ttf);
+        url(./img/fonts/Muli-Bold.ttf);
     font-style: normal;
     font-weight: 500;
 }
@@ -18,16 +18,6 @@
         url(./img/fonts/muli-semibold.ttf);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul {
-    list-style: none;
-}
-
 header {
     font-family: Muli;
     width: 100vw;
@@ -36,23 +26,71 @@ header {
     padding: 0;
     background: url(./img/smoothies/header-bg-img.png) no-repeat;
     background-size: cover;
-    position: relative;
 }
 
-.title {
-    width: 637px;
-    height: 38px;
-    color: #f7ae3b;
-    font-family: "Muli - Extra Bold";
-    font-size: 50px;
+.header__nav {
+    padding: 20px;
+}
+
+.header__logo {
+    padding: 20px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list-link {
+    margin-right: 35px;
+    font-family: "Muli-bold";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.header__personal {
+    padding: 20px;
+}
+
+.header__social-list {
+    padding: 20px;
+}
+
+.header__btn {
+    margin: 20px;
+    padding: 20px;
+    width: 280px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #0aa566;
+    font-size: 24px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 40px;
+    text-align: left;
+    letter-spacing: -0.48px;
+}
+
+.smoothies {
+    height: 870px;
+    ;
+    padding: 50px 0;
+}
+
+.smoothies__text {
+    font-family: "Muli-bold";
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
-    font-style: normal;
-    letter-spacing: -1px;
+    margin: 0 auto 50px auto;
+}
+
+.smoothies__title {
+    font-size: 50px;
+    ;
     line-height: normal;
+    text-align: center;
+    color: #f7af3d;
+    margin-bottom: 50px;
 }
 
 .nav__list-link {
@@ -72,6 +110,128 @@ header {
     line-height: normal;
 }
 
+.smoothies__inner {
+    width: 25%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smoothies__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .content__list-item {
     list-style-image: url(./img/about/1.png);
-    }
+}
+
+.about {
+    background-color: #158270;
+}
+
+.about__title {
+    color: #ffffff;
+}
+
+.about__title--bold {
+    color: #cae941;
+}
+
+.content__list {
+    list-style-image: url(/img/about/1.png)
+}
+
+.about__title {
+    padding: 20px;
+}
+
+.content__list {
+    padding: 50px;
+    color: #ffffff;
+}
+
+.about__btn {
+    margin: 20px;
+    color: #ffffff;
+    padding: 20px;
+    width: 380px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #0aa566;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: normal;
+
+}
+
+.products__inner--chocolate {
+    background-color: #632b16;
+}
+
+.products {
+    display: flex;
+}
+
+.products__inner {
+    text-align: center;
+    width: 480px;
+    height: 720px;
+    margin-bottom: 120px;
+}
+
+.products__inner--chocolate {
+    background-color: #632b16;
+}
+
+.products__inner--green {
+    background-color: #1a846e;
+}
+
+.products__inner--yellow {
+    background-color: #f7b03b;
+}
+
+.products__inner--orange {
+    background-color: #c1451b;
+}
+
+.products__img {
+    margin-bottom: 34px;
+}
+
+.story__title {
+    color: #f7ae3b;
+    margin-bottom: 40px;
+}
+
+.story__text {
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+
+.story__btn {
+    margin: 20px;
+    padding: 20px;
+    width: 280px;
+    height: 70px;
+    color: white;
+    border-radius: 35px;
+    background-color: #0aa566;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: -0.48px;
+}
+
+.testimonials__title {
+    color: #f7ae3b;
+}
+
+.testimonials--bold {
+    color: #f2612d;
+}
