@@ -28,6 +28,33 @@ header {
     background-size: cover;
 }
 
+* {
+    border: 1px solid red;
+}
+
+.social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    min-width: 35px;
+    max-width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.personal__cart-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    font-size: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #000;
+}
+
 .header__nav {
     padding: 20px;
 }
@@ -232,6 +259,6 @@ header {
     color: #f7ae3b;
 }
 
-.testimonials--bold {
+.testimonials-bold {
     color: #f2612d;
 }
