@@ -63,44 +63,28 @@ header {
     padding: 20px;
 }
 
-.nav__list {
+.header__social-list {
     display: flex;
 }
 
-.nav__list-link {
-    margin-right: 35px;
-    font-family: "Muli-bold";
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
+.header__content {
+    display: flex;
+    justify-content: center;
 }
 
-.header__personal {
-    padding: 20px;
-}
-
-.header__social-list {
-    padding: 20px;
+.header__top {
+    display: flex;
+    padding: 70px 100px 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__btn {
-    margin: 20px;
-    padding: 20px;
+    background-color:#0aa566;
     width: 280px;
     height: 70px;
     border-radius: 35px;
-    background-color: #0aa566;
     font-size: 24px;
-    font-weight: 400;
-    text-align: left;
-    letter-spacing: -0.48px;
-}
-
-.smoothies {
-    height: 870px;
-    ;
-    padding: 50px 0;
 }
 
 .smoothies__text {
@@ -137,6 +121,22 @@ header {
     line-height: normal;
 }
 
+.nav__list {
+    display: flex;
+    column-gap: 35px;
+}
+
+.personal__list {
+    column-gap: 35px;
+    display: flex;
+}
+
+.header__right-block {
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+}
+
 .smoothies__inner {
     width: 25%;
     height: 180px;
@@ -154,6 +154,10 @@ header {
 
 .content__list-item {
     list-style-image: url(./img/about/1.png);
+}
+
+.instagram {
+    display: flex;
 }
 
 .about {
@@ -193,6 +197,7 @@ header {
     font-weight: 400;
     text-align: left;
     letter-spacing: normal;
+
 
 }
 
