@@ -28,6 +28,18 @@ header {
     background-size: cover;
 }
 
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
 * {
     border: 1px solid red;
 }
@@ -161,11 +173,25 @@ header {
 }
 
 .about {
-    background-color: #158270;
+    background-color: #16826e;
+    display: flex;
+}
+
+.about__img {
+	padding: 60px 0 0 145px;
+	margin-right: 140px;
+}
+
+.about__content {
+    
 }
 
 .about__title {
+    font-size: 55px;
+    line-height: 1.2em;
     color: #ffffff;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .about__title--bold {
@@ -176,29 +202,20 @@ header {
     list-style-image: url(/img/about/1.png)
 }
 
-.about__title {
-    padding: 20px;
-}
-
 .content__list {
     padding: 50px;
     color: #ffffff;
 }
 
 .about__btn {
-    margin: 20px;
     color: #ffffff;
-    padding: 20px;
+    background-color: transparent;
     width: 380px;
     height: 60px;
+    border: 2px solid #f8b231;
     border-radius: 30px;
-    background-color: #0aa566;
     font-size: 21px;
-    font-weight: 400;
-    text-align: left;
-    letter-spacing: normal;
-
-
+    line-height: 22px;
 }
 
 .products__inner--chocolate {
