@@ -174,24 +174,30 @@ body {
 
 .about {
     background-color: #16826e;
-    display: flex;
-}
-
-.about__img {
-	padding: 60px 0 0 145px;
-	margin-right: 140px;
 }
 
 .about__content {
     
 }
 
+.about__img {
+    list-style-image: url(./img/about/Img.png);
+}
+
 .about__title {
-    font-size: 55px;
-    line-height: 1.2em;
+    display: inline-block;
+    margin-left: 600px;
     color: #ffffff;
-    margin-top: 10px;
-    margin-right: 10px;
+    font-family: "Muli - Extra Bold";
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: -1.1px;
+}
+
+.content__list {
+width: 408px;
+height: 329px;
+margin-left: 600px;
 }
 
 .about__title--bold {
@@ -216,6 +222,7 @@ body {
     border-radius: 30px;
     font-size: 21px;
     line-height: 22px;
+    margin-left: 600px;
 }
 
 .products__inner--chocolate {
